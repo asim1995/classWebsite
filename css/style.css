@@ -221,7 +221,7 @@ h2 {
   margin-bottom: 32px;
 }
 h2.head__1 {
-  padding-top: 74px;
+ padding-top: 40px;
   font-size: 35px;
   margin-bottom: 26px;
   color: #000000;
@@ -648,6 +648,9 @@ header h1.stuck_head {
   font: 24px/20px 'Roboto Condensed', sans-serif;
   margin-bottom: 20px;
 }
+.text1 a{
+  color:#00b1ba;
+}
 .text2 {
   font-size: 16px;
   line-height: 20px;
@@ -661,6 +664,11 @@ header h1.stuck_head {
   display: block;
   margin-top: -38px;
 }
+.text4{
+font-size: 16px;
+line-height: 20px;
+color: #5e5d5d;
+}
 .color1 {
   color: #00b1ba;
 }
@@ -673,6 +681,9 @@ a.color1:hover {
 }
 .color3 {
   color: #5e5d5d;
+}
+.color4{
+
 }
 /****Map****/
 .map {
@@ -769,6 +780,78 @@ a.color1:hover {
   outline: none;
   color: #00b1ba;
 }
+
+
+/*EXTRA PAGES*/
+.extra_page a{
+  color:white;
+}
+.extra_page a:hover {
+  color: #6d6a6a !important;
+}
+
+/*privacy_policy */
+.policy p{
+  margin: 0px 0px 0px 0px;
+  font-size: 15px;
+}
+
+.career-body p {
+    margin: 10px 0px 10px 0px;
+}
+
+.career_greet{
+padding: 10px 0px 10px 0px;
+}
+ol{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.security_content li{
+font-size: 15px;
+    line-height: 1.5;
+}
+
+/*Careers*/
+/*.btn-primary{
+  color: #ffffff;
+    background-color: #337cbb;
+    border-color: #2e6fa7;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+*/
+
+
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {
   .extra_wrapper {
@@ -833,6 +916,13 @@ a.color1:hover {
   .text2.color1 {
     margin-top: 30px;
   }
+  .text4.color4 {
+    margin-top: 30px;
+  }
+  .text4.color4 a{
+    color:#00b1ba;
+  }
+  
   .address1 + .address1 {
     margin-left: 60px;
   }
@@ -1202,7 +1292,7 @@ a.color1:hover {
 .form-control {
   
     display: block;
-    width: 50%;
+    width: 80%;
     height: 34px;
     padding: 6px 12px;
     font-size: 14px;
@@ -1227,7 +1317,7 @@ input[type=text]{
   border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  width: 50%!important;
+  width: 80%!important;
   margin-left: 16px;
 }
 input[type=text1]{
@@ -1235,7 +1325,7 @@ input[type=text1]{
   border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  width: 50%!important;
+  width: 80%!important;
   margin-left: 16px;
 }
 input[type="email"]{
@@ -1243,7 +1333,7 @@ input[type="email"]{
   border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  width: 50%!important;
+  width: 80%!important;
   margin-left: 16px;
 }
 textarea{
